@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma.DAL", "Sigma.DAL\Sigm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma.Services", "Sigma.Services\Sigma.Services.csproj", "{9B7383B9-48E3-4D19-9988-E4A4E1F55AA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma.UnitTests", "Sigma.UnitTests\Sigma.UnitTests.csproj", "{A5D94E39-4ADB-4F6E-AC63-181873BDA59C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{9B7383B9-48E3-4D19-9988-E4A4E1F55AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B7383B9-48E3-4D19-9988-E4A4E1F55AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B7383B9-48E3-4D19-9988-E4A4E1F55AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D94E39-4ADB-4F6E-AC63-181873BDA59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D94E39-4ADB-4F6E-AC63-181873BDA59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D94E39-4ADB-4F6E-AC63-181873BDA59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D94E39-4ADB-4F6E-AC63-181873BDA59C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
