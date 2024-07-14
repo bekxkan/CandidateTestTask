@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Sigma.DAL;
 
@@ -11,9 +12,11 @@ using Sigma.DAL;
 namespace Sigma.DAL.Migrations
 {
     [DbContext(typeof(SigmaDbContext))]
-    partial class SigmaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240714100327_ChangeUIDFromIdToEmail")]
+    partial class ChangeUIDFromIdToEmail
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
