@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Sigma.DAL;
+using Sigma.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<SigmaDbContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), 
         b => b.MigrationsAssembly(typeof(SigmaDbContext).Assembly.FullName)));
+builder.Services.AddServices();
 
 var app = builder.Build();
 

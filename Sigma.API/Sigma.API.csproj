@@ -17,6 +17,16 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Sigma.DAL\Sigma.DAL.csproj" />
+      <ProjectReference Include="..\Sigma.Services\Sigma.Services.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="WeatherForecast.cs" />
+      <Compile Remove="Controllers\WeatherForecastController.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="SigmaCandidateTestTask.http" />
     </ItemGroup>
 
 </Project>
